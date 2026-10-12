@@ -1,4 +1,4 @@
-/* Reset básico para limpar margens do navegador */
+/* Base */
 * {
     margin: 0;
     padding: 0;
@@ -6,19 +6,45 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Rolagem suave ao clicar no menu */
 html {
     scroll-behavior: smooth;
 }
 
-/* ================= CABEÇALHO ================= */
+main {
+    padding-top: 80px;
+}
+
+section {
+    min-height: 100vh;
+    padding: 4rem 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section h1, section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #1f2937;
+}
+
+#sobre, #experiencias { background-color: #f9fafb; }
+#projetos, #contato { background-color: #ffffff; }
+
+.hidden {
+    display: none !important;
+}
+
+/* Cabeçalho */
 header {
     background-color: #ffffff;
     padding: 1.2rem 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed; /* Fixa o menu no topo */
+    position: fixed;
     width: 100%;
     top: 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -54,7 +80,6 @@ nav {
     color: #2563eb;
 }
 
-/* Estilo do botão de idioma */
 #btn-idioma {
     padding: 0.5rem 1rem;
     background-color: #dbeafe;
@@ -70,45 +95,7 @@ nav {
     background-color: #bfdbfe;
 }
 
-/* Classe para esconder textos no idioma inativo */
-.hidden {
-    display: none !important;
-}
-
-/* ================= SEÇÕES ================= */
-main {
-    padding-top: 80px; /* Compensa o menu fixo */
-}
-
-section {
-    min-height: 100vh; /* Cada seção ocupa a tela inteira */
-    padding: 4rem 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-section h1, section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    color: #1f2937;
-}
-
-/* Cores alternadas para cada seção */
-#sobre, #experiencias { background-color: #f9fafb; }
-#projetos, #contato { background-color: #ffffff; }
-
-/* ================= RODAPÉ ================= */
-footer {
-    text-align: center;
-    padding: 2rem;
-    background-color: #1f2937;
-    color: #9ca3af;
-}
-
-/* ================= CONTEÚDO SOBRE MIM ================= */
+/* Sobre Mim */
 .sobre-conteudo {
     display: flex;
     align-items: center;
@@ -133,7 +120,7 @@ footer {
     margin-top: 1rem;
 }
 
-/* ================= TIMELINE DE PROJETOS ================= */
+/* Projetos */
 .timeline {
     position: relative;
     max-width: 800px;
@@ -141,7 +128,6 @@ footer {
     padding: 1rem 0;
 }
 
-/* A linha vertical da timeline */
 .timeline::after {
     content: '';
     position: absolute;
@@ -160,7 +146,6 @@ footer {
     width: 50%;
 }
 
-/* Bolinhas na linha vertical */
 .timeline-item::after {
     content: '';
     position: absolute;
@@ -174,7 +159,6 @@ footer {
     z-index: 1;
 }
 
-/* Lado esquerdo e direito da timeline */
 .timeline-item:nth-child(odd) { left: 0; }
 .timeline-item:nth-child(even) { left: 50%; }
 .timeline-item:nth-child(even)::after { left: -10px; }
@@ -202,7 +186,7 @@ footer {
     margin-bottom: 15px;
 }
 
-/* ================= CARDS DE EXPERIÊNCIAS ================= */
+/* Experiências */
 .cards-container {
     display: flex;
     flex-wrap: wrap;
@@ -227,6 +211,7 @@ footer {
 .card .data { display: block; color: #9ca3af; font-size: 0.85rem; margin: 10px 0; font-weight: bold; }
 .card p { color: #6b7280; line-height: 1.5; }
 
+/* Contato */
 .contato-container {
     display: flex;
     flex-direction: column;
@@ -290,4 +275,12 @@ form button:hover {
 #status-msg {
     margin-top: 10px;
     font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #1f2937;
+    color: #9ca3af;
 }

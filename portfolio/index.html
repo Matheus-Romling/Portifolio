@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matheus Romling - Portfólio</title>
-    <!-- Conectando o CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <!-- ================= CABEÇALHO E NAVEGAÇÃO ================= -->
+    <!-- Cabeçalho -->
     <header>
         <div class="logo">Matheus Romling</div>
         <nav>
@@ -31,16 +30,12 @@
                     <a href="#contato" class="lang-en hidden">Contact</a>
                 </li>
             </ul>
-            <!-- Botão de trocar idioma exigido pelo professor -->
             <button id="btn-idioma">EN</button>
         </nav>
     </header>
 
-    <!-- ================= ÁREA DE CONTEÚDO (PÁGINAS) ================= -->
-    <!-- ================= ÁREA DE CONTEÚDO ================= -->
     <main>
-        
-        <!-- SEÇÃO 1: SOBRE MIM -->
+        <!-- Sobre Mim -->
         <section id="sobre">
             <div class="sobre-conteudo">
                 <img src="images/fotoPrincipal.png" alt="Foto de Matheus" class="foto-perfil">
@@ -54,13 +49,12 @@
             </div>
         </section>
 
-        <!-- SEÇÃO 2: PROJETOS (TIMELINE) -->
+        <!-- Projetos -->
         <section id="projetos">
             <h2 class="lang-pt">Meus Projetos</h2>
             <h2 class="lang-en hidden">My Projects</h2>
             
             <div class="timeline">
-                <!-- Projeto 2 -->
                 <div class="timeline-item">
                     <div class="timeline-conteudo">
                         <h3 class="lang-pt">Portfólio Profissional</h3>
@@ -77,7 +71,7 @@
             </div>
         </section>
 
-        <!-- SEÇÃO 3: EXPERIÊNCIAS -->
+        <!-- Experiências -->
         <section id="experiencias">
             <h2 class="lang-pt">Experiências Profissionais</h2>
             <h2 class="lang-en hidden">Professional Experiences</h2>
@@ -105,42 +99,39 @@
             </div>
         </section>
 
-        <!-- SEÇÃO 4: CONTATO -->
+        <!-- Contato -->
         <section id="contato">
             <h2 class="lang-pt">Entre em Contato</h2>
             <h2 class="lang-en hidden">Get in Touch</h2>
     
             <div class="contato-container">
-                <!-- Ícones Sociais -->
                 <div class="sociais">
                     <a href="https://linkedin.com/in/matheus-romling-rotheia-almeida-264761418" target="_blank">LinkedIn</a>
                     <a href="https://github.com/Matheus-Romling" target="_blank">GitHub</a>
                     <a href="mailto:seu-email@gmail.com">E-mail</a>
-            </div>
+                </div>
 
-           <!-- O Formulário de Contacto -->
-            <form id="form-contato">
-                <input type="text" id="nome" placeholder="Seu Nome" data-placeholder-pt="Seu Nome" data-placeholder-en="Your Name" required>
-                <input type="email" id="email" placeholder="Seu E-mail" data-placeholder-pt="Seu E-mail" data-placeholder-en="Your Email" required>
-                <textarea id="mensagem" placeholder="Sua Mensagem..." data-placeholder-pt="Sua Mensagem..." data-placeholder-en="Your Message..." rows="5" required></textarea>
-            
-                <button type="submit" class="lang-pt">Enviar Mensagem</button>
-                <button type="submit" class="lang-en hidden">Send Message</button>
-            
-                <p id="status-msg"></p>
-            </form>
-        </div>
-    </section>
+                <form id="form-contato">
+                    <input type="text" id="nome" placeholder="Seu Nome" data-placeholder-pt="Seu Nome" data-placeholder-en="Your Name" required>
+                    <input type="email" id="email" placeholder="Seu E-mail" data-placeholder-pt="Seu E-mail" data-placeholder-en="Your Email" required>
+                    <textarea id="mensagem" placeholder="Sua Mensagem..." data-placeholder-pt="Sua Mensagem..." data-placeholder-en="Your Message..." rows="5" required></textarea>
+                
+                    <button type="submit" class="lang-pt">Enviar Mensagem</button>
+                    <button type="submit" class="lang-en hidden">Send Message</button>
+                
+                    <p id="status-msg"></p>
+                </form>
+            </div>
+        </section>
     </main>
 
-    <!-- ================= RODAPÉ ================= -->
+    <!-- Rodapé -->
     <footer>
         <p class="lang-pt">&copy; 2026 Matheus Romling. Desenvolvido para DIW (PUC Minas).</p>
         <p class="lang-en hidden">&copy; 2026 Matheus Romling. Developed for DIW (PUC Minas).</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <!-- Conectando o JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
