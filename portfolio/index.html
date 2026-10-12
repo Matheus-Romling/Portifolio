@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus Romling - Portfólio</title>
+    <!-- Conectando o CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- ================= CABEÇALHO E NAVEGAÇÃO ================= -->
+    <header>
+        <div class="logo">Matheus Romling</div>
+        <nav>
+            <ul class="nav-links">
+                <li>
+                    <a href="#sobre" class="lang-pt">Sobre Mim</a>
+                    <a href="#sobre" class="lang-en hidden">About Me</a>
+                </li>
+                <li>
+                    <a href="#projetos" class="lang-pt">Projetos</a>
+                    <a href="#projetos" class="lang-en hidden">Projects</a>
+                </li>
+                <li>
+                    <a href="#experiencias" class="lang-pt">Experiências</a>
+                    <a href="#experiencias" class="lang-en hidden">Experiences</a>
+                </li>
+                <li>
+                    <a href="#contato" class="lang-pt">Contato</a>
+                    <a href="#contato" class="lang-en hidden">Contact</a>
+                </li>
+            </ul>
+            <!-- Botão de trocar idioma exigido pelo professor -->
+            <button id="btn-idioma">EN</button>
+        </nav>
+    </header>
+
+    <!-- ================= ÁREA DE CONTEÚDO (PÁGINAS) ================= -->
+    <!-- ================= ÁREA DE CONTEÚDO ================= -->
+    <main>
+        
+        <!-- SEÇÃO 1: SOBRE MIM -->
+        <section id="sobre">
+            <div class="sobre-conteudo">
+                <img src="/portfolio/images/fotoPrincipal.png" alt="Foto de Matheus" class="foto-perfil">
+                <div class="sobre-texto">
+                    <h1 class="lang-pt">Olá, eu sou o Matheus Romling!</h1>
+                    <h1 class="lang-en hidden">Hello, I'm Matheus Romling!</h1>
+                    
+                    <p class="lang-pt">Estudante de Ciência da Computação na PUC Minas, apaixonado por tecnologia e desenvolvimento de software. Tenho foco na criação de soluções eficientes e estou sempre em busca de aprender novas ferramentas. Meus principais interesses incluem Desenvolvimento Web, Lógica de Programação e Engenharia de Software.</p>
+                    <p class="lang-en hidden">Computer Science student at PUC Minas, passionate about technology and software development. I focus on creating efficient solutions and I am always looking to learn new tools. My main interests include Web Development, Programming Logic, and Software Engineering.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 2: PROJETOS (TIMELINE) -->
+        <section id="projetos">
+            <h2 class="lang-pt">Meus Projetos</h2>
+            <h2 class="lang-en hidden">My Projects</h2>
+            
+            <div class="timeline">
+                <!-- Projeto 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-conteudo">
+                        <h3>Gestão de Veículos</h3>
+                        <p class="lang-pt">Sistema em C para leitura, ordenação e busca binária de dados em arquivos CSV.</p>
+                        <p class="lang-en hidden">C system for reading, sorting, and binary searching data in CSV files.</p>
+                        <div class="tags">
+                            <span>C</span> <span>Lógica</span>
+                        </div>
+                        <a href="https://github.com/Matheus-Romling" target="_blank">Ver no GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-conteudo">
+                        <h3>Portfólio Profissional</h3>
+                        <p class="lang-pt">Meu site pessoal desenvolvido com HTML, CSS e JavaScript responsivo.</p>
+                        <p class="lang-en hidden">My personal website built with responsive HTML, CSS, and JavaScript.</p>
+                        <div class="tags">
+                            <span>HTML</span> <span>CSS</span> <span>JS</span>
+                        </div>
+                        <a href="https://github.com/Matheus-Romling" target="_blank">Ver no GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 3: EXPERIÊNCIAS -->
+        <section id="experiencias">
+            <h2 class="lang-pt">Experiências Profissionais</h2>
+            <h2 class="lang-en hidden">Professional Experiences</h2>
+            
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Aluno de Ciência da Computação</h3>
+                    <h4>PUC Minas</h4>
+                    <span class="data">2023 - Presente</span>
+                    <p class="lang-pt">Desenvolvimento de projetos acadêmicos com foco em algoritmos, estrutura de dados e engenharia de software.</p>
+                    <p class="lang-en hidden">Development of academic projects focusing on algorithms, data structures, and software engineering.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 4: CONTATO (Deixaremos o formulário para o próximo passo) -->
+        <section id="contato">
+            <h2 class="lang-pt">Entre em Contato</h2>
+            <h2 class="lang-en hidden">Get in Touch</h2>
+            <p class="lang-pt">Preparando o formulário...</p>
+            <p class="lang-en hidden">Preparing the form...</p>
+        </section>
+
+    </main>
+
+    <!-- ================= RODAPÉ ================= -->
+    <footer>
+        <p>&copy; 2026 Matheus Romling. Desenvolvido para DIW (PUC Minas).</p>
+    </footer>
+
+    <!-- Conectando o JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
