@@ -63,13 +63,15 @@
                 <!-- Projeto 2 -->
                 <div class="timeline-item">
                     <div class="timeline-conteudo">
-                        <h3>Portfólio Profissional</h3>
+                        <h3 class="lang-pt">Portfólio Profissional</h3>
+                        <h3 class="lang-en hidden">Professional Portfolio</h3>
                         <p class="lang-pt">Meu site pessoal desenvolvido com HTML, CSS e JavaScript responsivo.</p>
                         <p class="lang-en hidden">My personal website built with responsive HTML, CSS, and JavaScript.</p>
                         <div class="tags">
                             <span>HTML</span> <span>CSS</span> <span>JS</span>
                         </div>
-                        <a href="https://github.com/Matheus-Romling" target="_blank">Ver no GitHub</a>
+                        <a href="https://github.com/Matheus-Romling" target="_blank" class="lang-pt">Ver no GitHub</a>
+                        <a href="https://github.com/Matheus-Romling" target="_blank" class="lang-en hidden">View on GitHub</a>
                     </div>
                 </div>
             </div>
@@ -82,30 +84,62 @@
             
             <div class="cards-container">
                 <div class="card">
-                    <h3>Aluno de Ciência da Computação</h3>
+                    <h3 class="lang-pt">Aluno de Ciência da Computação</h3>
+                    <h3 class="lang-en hidden">Computer Science Student</h3>
                     <h4>PUC Minas</h4>
-                    <span class="data">2023 - Presente</span>
+                    <span class="data lang-pt">2026 - Presente</span>
+                    <span class="data lang-en hidden">2026 - Present</span>
                     <p class="lang-pt">Desenvolvimento de projetos acadêmicos com foco em algoritmos, estrutura de dados e engenharia de software.</p>
                     <p class="lang-en hidden">Development of academic projects focusing on algorithms, data structures, and software engineering.</p>
+                </div>
+
+                <div class="card">
+                    <h3 class="lang-pt">Programação Competitiva</h3>
+                    <h3 class="lang-en hidden">Competitive Programming</h3>
+                    <h4>C++</h4>
+                    <span class="data lang-pt">2026 - Presente</span>
+                    <span class="data lang-en hidden">2026 - Present</span>
+                    <p class="lang-pt">Ampla prática em programação competitiva (C++), com resolução de problemas complexos, aplicação de estruturas de dados e foco em otimização algorítmica.</p>
+                    <p class="lang-en hidden">Extensive practice in competitive programming (C++), solving complex problems, applying data structures, and focusing on algorithmic optimization.</p>
                 </div>
             </div>
         </section>
 
-        <!-- SEÇÃO 4: CONTATO (Deixaremos o formulário para o próximo passo) -->
+        <!-- SEÇÃO 4: CONTATO -->
         <section id="contato">
             <h2 class="lang-pt">Entre em Contato</h2>
             <h2 class="lang-en hidden">Get in Touch</h2>
-            <p class="lang-pt">Preparando o formulário...</p>
-            <p class="lang-en hidden">Preparing the form...</p>
-        </section>
+    
+            <div class="contato-container">
+                <!-- Ícones Sociais -->
+                <div class="sociais">
+                    <a href="https://linkedin.com/in/matheus-romling-rotheia-almeida-264761418" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/Matheus-Romling" target="_blank">GitHub</a>
+                    <a href="mailto:seu-email@gmail.com">E-mail</a>
+            </div>
 
+           <!-- O Formulário de Contacto -->
+            <form id="form-contato">
+                <input type="text" id="nome" placeholder="Seu Nome" data-placeholder-pt="Seu Nome" data-placeholder-en="Your Name" required>
+                <input type="email" id="email" placeholder="Seu E-mail" data-placeholder-pt="Seu E-mail" data-placeholder-en="Your Email" required>
+                <textarea id="mensagem" placeholder="Sua Mensagem..." data-placeholder-pt="Sua Mensagem..." data-placeholder-en="Your Message..." rows="5" required></textarea>
+            
+                <button type="submit" class="lang-pt">Enviar Mensagem</button>
+                <button type="submit" class="lang-en hidden">Send Message</button>
+            
+                <p id="status-msg"></p>
+            </form>
+        </div>
+    </section>
     </main>
 
     <!-- ================= RODAPÉ ================= -->
     <footer>
-        <p>&copy; 2026 Matheus Romling. Desenvolvido para DIW (PUC Minas).</p>
+        <p class="lang-pt">&copy; 2026 Matheus Romling. Desenvolvido para DIW (PUC Minas).</p>
+        <p class="lang-en hidden">&copy; 2026 Matheus Romling. Developed for DIW (PUC Minas).</p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <!-- Conectando o JavaScript -->
     <script src="script.js"></script>
 </body>

@@ -226,3 +226,68 @@ footer {
 .card h4 { color: #4b5563; margin-top: 5px; }
 .card .data { display: block; color: #9ca3af; font-size: 0.85rem; margin: 10px 0; font-weight: bold; }
 .card p { color: #6b7280; line-height: 1.5; }
+
+.contato-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 2rem;
+}
+
+.sociais {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.sociais a {
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #2563eb;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.sociais a:hover {
+    background-color: #2563eb;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+form input, form textarea {
+    padding: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 15px;
+    background-color: #1f2937;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background-color: #374151;
+}
+
+#status-msg {
+    margin-top: 10px;
+    font-weight: bold;
+}
