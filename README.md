@@ -26,7 +26,7 @@
 
 ## 🚧 Status do Projeto
 
-[![Versão](https://img.shields.io/badge/Versão-v1.0.0-blue?style=for-the-badge)](https://github.com/Matheus-Romling/Portifolio/releases)
+[![Versão](https://img.shields.io/badge/Versão-v1.1.0-blue?style=for-the-badge)](https://github.com/Matheus-Romling/Portifolio/releases)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript_ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -66,7 +66,7 @@
 
 ## 📝 Sobre o Projeto
 
-Este projeto consiste no desenvolvimento do meu **Portfólio Profissional Web**, elaborado como requisito avaliativo para o **Laboratório 01** da disciplina de **Desenvolvimento de Interfaces Web (DIW)** da PUC Minas.
+Esse é o meu portifólio profissional, que irei completando ao decorrer do tempo!
 
 ### 🎯 Motivação e Problema Resolvido
 No mercado de tecnologia e no ecossistema acadêmico, profissionais e estudantes de Ciência da Computação precisam de um ponto centralizado, público e acessível para apresentar seu currículo, competências algorítmicas, histórico acadêmico e projetos desenvolvidos. 
@@ -260,7 +260,7 @@ O projeto foi validado seguindo critérios práticos de qualidade e usabilidade:
 * 📖 **HTML5 & CSS3:** [MDN Web Docs](https://developer.mozilla.org/pt-BR/docs/Web)
 * 📖 **JavaScript Moderno:** [JavaScript Info](https://javascript.info/)
 * 📖 **EmailJS SDK:** [Documentação Oficial do EmailJS](https://www.emailjs.com/docs/)
-* 📖 **Template Acadêmico:** [Repositório do Prof. Dr. João Paulo Aramuni](https://github.com/joaopauloaramuni)
+* 📖 **Template Acadêmico:** [Repositório do Prof. Dr. João Paulo Aramuni](https://github.com/joaopauloaramuni/desenvolvimento-de-interfaces-web/blob/main/TEMPLATES/template_README.md)
 
 ---
 
@@ -275,11 +275,4 @@ O projeto foi validado seguindo critérios práticos de qualidade e usabilidade:
 ## 🙏 Agradecimentos
 
 * À **PUC Minas** e ao corpo docente do curso de **Ciência da Computação** pelo incentivo contínuo ao desenvolvimento técnico.
-* Ao [**Prof. Dr. João Paulo Aramuni**](https://github.com/joaopauloaramuni) pela elaboração dos laboratórios, fornecimento do modelo documental e incentivo às melhores práticas de desenvolvimento.
-
----
-
-## 📄 Licença
-
-Este projeto é distribuído sob a **[Licença MIT](LICENSE)**.
-
+* Ao [**Prof. Dr. João Paulo Aramuni**](https://github.com/joaopauloaramuni), instrutor de Desenvolvimento de Interfaces Web
