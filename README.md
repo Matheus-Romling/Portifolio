@@ -32,7 +32,6 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript_ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![EmailJS](https://img.shields.io/badge/EmailJS-FF6C37?style=for-the-badge&logo=mailgun&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-[![Licença](https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge)](#-licença)
 
 ---
 
