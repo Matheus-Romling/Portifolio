@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matheus Romling - Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -68,6 +71,21 @@
                         <a href="https://github.com/Matheus-Romling" target="_blank" class="lang-en hidden">View on GitHub</a>
                     </div>
                 </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-conteudo">
+                        <img src="images/papyrus.png" alt="Papyrus Contabilidade" class="projeto-img">
+                        <h3 class="lang-pt">Extensão Universitária: Papyrus Contabilidade</h3>
+                        <h3 class="lang-en hidden">University Extension: Papyrus Accounting</h3>
+                        <p class="lang-pt">Projeto de extensão universitária desenvolvido para a Papyrus Contabilidade.</p>
+                        <p class="lang-en hidden">University extension project developed for Papyrus Accounting.</p>
+                        <div class="tags">
+                            <span>Extensão</span> <span>PUC Minas</span>
+                        </div>
+                        <a href="https://github.com/Matheus-Romling" target="_blank" class="lang-pt">Ver no GitHub</a>
+                        <a href="https://github.com/Matheus-Romling" target="_blank" class="lang-en hidden">View on GitHub</a>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -96,6 +114,16 @@
                     <p class="lang-pt">Ampla prática em programação competitiva (C++), com resolução de problemas complexos, aplicação de estruturas de dados e foco em otimização algorítmica.</p>
                     <p class="lang-en hidden">Extensive practice in competitive programming (C++), solving complex problems, applying data structures, and focusing on algorithmic optimization.</p>
                 </div>
+
+                <div class="card">
+                    <h3 class="lang-pt">Inglês Fluente</h3>
+                    <h3 class="lang-en hidden">Fluent English</h3>
+                    <h4>Comunicação & Escrita Técnica</h4>
+                    <span class="data lang-pt">Proficiência Plena</span>
+                    <span class="data lang-en hidden">Full Proficiency</span>
+                    <p class="lang-pt">Fluência verbal e escrita para leitura de documentação técnica, comunicação em equipes globais e desenvolvimento de projetos em ambientes internacionais.</p>
+                    <p class="lang-en hidden">Fluent communication and technical writing skills for documentation reading, global team collaboration, and international projects.</p>
+                </div>
             </div>
         </section>
 
@@ -106,9 +134,21 @@
     
             <div class="contato-container">
                 <div class="sociais">
-                    <a href="https://linkedin.com/in/matheus-romling-rotheia-almeida-264761418" target="_blank">LinkedIn</a>
-                    <a href="https://github.com/Matheus-Romling" target="_blank">GitHub</a>
-                    <a href="mailto:seu-email@gmail.com">E-mail</a>
+                    <a href="https://linkedin.com/in/matheus-romling-rotheia-almeida-264761418" target="_blank" title="LinkedIn" aria-label="LinkedIn">
+                        <img src="images/linkedin.svg" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/Matheus-Romling" target="_blank" title="GitHub" aria-label="GitHub">
+                        <img src="images/github.svg" alt="GitHub">
+                    </a>
+                    <button type="button" data-modal="gmail" title="Gmail" aria-label="Gmail">
+                        <img src="images/gmail.svg" alt="Gmail">
+                    </button>
+                    <button type="button" data-modal="whatsapp" title="WhatsApp" aria-label="WhatsApp">
+                        <img src="images/whatsapp.svg" alt="WhatsApp">
+                    </button>
+                    <button type="button" data-modal="discord" title="Discord" aria-label="Discord">
+                        <img src="images/discord.svg" alt="Discord">
+                    </button>
                 </div>
 
                 <form id="form-contato">
@@ -130,6 +170,21 @@
         <p class="lang-pt">&copy; 2026 Matheus Romling.</p>
         <p class="lang-en hidden">&copy; 2026 Matheus Romling.</p>
     </footer>
+
+    <div id="modal-contato" class="modal-overlay hidden">
+        <div class="modal-card">
+            <button type="button" class="modal-fechar" id="modal-fechar" aria-label="Fechar">&times;</button>
+            <div class="modal-icone">
+                <img id="modal-img" src="" alt="Ícone">
+            </div>
+            <h3 id="modal-titulo">Contato</h3>
+            <p id="modal-info" class="modal-info"></p>
+            <div class="modal-acoes">
+                <button type="button" id="modal-btn-copiar" class="modal-btn-acao">Copiar</button>
+                <a id="modal-link-acao" href="#" target="_blank" class="modal-btn-acao modal-btn-link">Abrir</a>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="script.js"></script>
